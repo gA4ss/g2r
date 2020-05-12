@@ -1,0 +1,1 @@
+g++ lex.yy.c g2r.tab.c makepkg.cc -ltinyxml2 -w -o ./g2r.out

@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package apollo.monitor;
+
+import "common/vehicle_state/vehicle_state.proto";
+import "data/static_info.proto";
+
+message VehicleStateReport {
+  optional apollo.data.VehicleInfo vehicle_info = 1;
+  optional apollo.common.VehicleState vehicle_state = 2;
+}
